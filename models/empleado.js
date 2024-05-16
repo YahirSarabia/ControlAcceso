@@ -22,8 +22,7 @@ const Departamento = sequelize.define('Departamento', {
   },
   PIN: {
     type: DataTypes.STRING,
-    allowNull: false,
-    unique: true
+    allowNull: false
   },
   HuellaD: {
     type: DataTypes.STRING, 

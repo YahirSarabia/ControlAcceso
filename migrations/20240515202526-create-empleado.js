@@ -19,8 +19,7 @@ module.exports = {
       },
       PIN: {
         type: Sequelize.STRING,
-        allowNull: false,
-        unique: true
+        allowNull: false
       },
       HuellaD: {
         type: Sequelize.STRING,
